@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html>
+ 
+<style>
+ 
+button {
+display: block;
+padding: 10px;
+font-size: 16px;
+text-align: center;
+border: 5px;
+}
+ 
+button:active {
+transform: translateY(2px);
+}
+ 
+.column {
+flex: 50%;
+padding 15px;
+}
+ 
+.row {
+display: flex;
+padding 35px;
+}
+ 
+.bt {
+font-size: 12px;
+font-weight: bold;
+}
+ 
+p {
+margin-bottom: 2px;
+margin-top: 2px;
+}
+ 
+table {
+padding: 15px;
+align: center;
+}
+ 
+td {
+border: 1px solid #000;
+}
+ 
+th, td {
+text-align: center;
+}
+ 
+stats {
+max-width: 600px;
+}
+ 
+</style>
+ 
+<script>
+function generateNumber() {
+var number = document.getElementById("generate");
+number.innerHTML = Math.floor((Math.random()* 100));
+}
+</script>
+<body>
+<center>
+
+<img src="ankylosaurus.jpg" width="500px" />
+
+<br><br>
+
+<b><u><font size="20px" color="#088f03">WILDERNESS ENCOUNTERS OF SARTASH</font></u></b>
+ 
+<br><br>
+<button onclick="generateNumber()"><div class="bt">GENERATE A NUMBER</button>
+<p id="generate"></p>
+<br>
+<br>
+
+<div class="row">
+<div class="column">
+<center>
+<p><font size="+1"><b><u>CLEARING</u></b></font>
+<br>
+<p><a href="#Iguanadon">1-12</a>
+<p><a href="#LandTrilobite">13-18</a>
+<p><a href="#FlyingTrilobite">19-22</a>
+<p><a href="#SmallSauropod">23-27</a>
+<p><a href="#Sauropod">28-33</a>
+<p><a href="#Chicken">34-45</a>
+<p><a href="#Triceratops">46-50</a>
+<p><a href="#PachySmall">51-55</a>
+<p><a href="#Pachy">56-62</a>
+<p><a href="#Bee">63-66</a>
+<p><a href="#Lizardman">67-71</a>
+<p><a href="#LizardTribal">72-77</a>
+<p><a href="#ShockLizard">78-81</a>
+<p><a href="#Raptor">82-84</a>
+<p><a href="#Pterodactyl">85-89</a>
+<p><a href="#Head">90-91</a>
+<p><a href="#Trex">92-93</a>
+<p><a href="#Special1">94-100</a>
+
+</div>
+ 
+<div class="column">
+<center>
+<p><font size="+1"><b><u>MARSHES</u></b></font>
+<br>
+<p><a href="Stegosaurus"></a>
+<p><a href="Giantlizard"></a>
+<p><a href="Firelizard"></a>
+<p><a href="LizardmenCivilized"></a>
+<p><a href="LizardmenTribal"></a>
+<p><a href="LizardmenFeral"></a>
+<p><a href="Explorers"></a>
+<p><a href="LostMadmen"></a>
+<p><a href="Raptor"></a>
+<p><a href="Poisonsaurus"></a>
+<p><a href="Trex"></a>
+<p><a href="Pterodactyl"></a>
+<p><a href="LandTrilobites"></a>
+<p><a href="GiantLeech"></a>
+<p><a href="SwampHag"></a>
+<p><a href="DuckBill"></a>
+<p><a href="Iguanodon"></a>
+<p><a href="GiantCrocodile"></a>
+<p><a href="GiantSnake"></a>
+<p><a href="GiantLungfish"></a>
+<p><a href="GiantTick"></a>
+ 
+<br>
+ 
+</div>
+ 
+<div class="column">
+<center>
+<p><font size="+1"><b><u>JUNGLE</u></b></font>
+<br>
+<p><a href="Stegosaurus"></a>
+<p><a href="Giantlizard"></a>
+<p><a href="Firelizard"></a>
+<p><a href="LizardmenCivilized"></a>
+<p><a href="LizardmenTribal"></a>
+<p><a href="LizardmenFeral"></a>
+<p><a href="Explorers"></a>
+<p><a href="LostMadmen"></a>
+<p><a href="Raptor"></a>
+<p><a href="Poisonsaurus"></a>
+<p><a href="Trex"></a>
+<p><a href="LandTrilobites"></a>
+<p><a href="GiantLeech"></a>
+<p><a href="DuckBill"></a>
+<p><a href="Iguanodon"></a>
+<p><a href="GiantCrocodile"></a>
+<p><a href="GiantSnake"></a>
+<p><a href="GiantCentipede"></a>
+<p><a href="FireBeetle"></a>
+<p><a href="YellowSlime"></a>
+<p><a href="Naga"></a>
+<p><a href="Brontosaurus"></a>
+<p><a href="Werewolf"></a>
+ 
+</div>
+ 
+<div class="column">
+<center>
+<p><font size="+1"><b><u>VOLCANIC</u></b></font>
+<br>
+<p><a href="Ankylosaurus"></a>
+<p><a href="FireBeetle"></a>
+<p><a href="Stegosaurus"></a>
+<p><a href="Giantlizard"></a>
+<p><a href="Firelizard"></a>
+<p><a href="LizardmenCivilized"></a>
+<p><a href="LizardmenTribal"></a>
+<p><a href="LizardmenFeral"></a>
+<p><a href="Pachyceph"></a>
+<p><a href="LostMadmen"></a>
+</div>
+ 
+<div class="column">
+<center>
+<p><font size="+1"><b><u>OCEAN</u></b></font>
+<br>
+</div>
+ 
+<div class="column">
+<center>
+<p><font size="+1"><b><u>UNDERGROUND</u></b></font>
+<br>
+<p><a href=""></a>
+</div>
+ 
+</div>
+ 
+<hr>
+ 
+<br><br>
+<div style="width: 700px">
+<table>
+<caption>
+<a name="Ankylosaurus"><u>Ankylosaurus</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>19</td>
+<td>12+6</td>
+<td>1 tail or 1 trample</td>
+<td>3d6, 3d6</td>
+<td>30'</td>
+<td>1d4</td>
+<td>Fighter 8</td>
+<td>None</td>
+<td>9</td>
+<td>1575</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Bee"><u>Bee, Giant</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>13</td>
+<td>1/2 of 1d4</td>
+<td>1 sting</td>
+<td>1d4+poison</td>
+<td>10', 50' flying</td>
+<td>1d6, 5d6 in hive</td>
+<td>Fighter 1</td>
+<td>Special</td>
+<td>9 (no morale checks if queen is threatened)</td>
+<td>15</td>
+</tr>
+<tr>
+<td colspan="10">Bees die 1 turn after stinging a victim. Queens have 2 HP and can bite for 1d8 damage. Giant beehives contain 2d10+10 gallons of edible honey, and there is a 15% chance that enough <b>royal jelly</b> will be found to make a potion equal to 1d6+1 <b>Potions of Healing</b>. This substance may be discovered after a search of at least two hours, or by using <i>Detect Magic</i>.
+</table>
+ 
+<br>
+
+<table>
+<caption>
+<a name="FireBeetle"><u>Beetle, Giant Fire</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>16</td>
+<td>1+2</td>
+<td>1 bite</td>
+<td>2d4 bite</td>
+<td>40'</td>
+<td>2d6</td>
+<td>Fighter 1</td>
+<td>None</td>
+<td>7</td>
+<td>25</td>
+</tr>
+<tr>
+<td colspan="10">Fire beetles are roughly a foot long and emit a faint red light up to around 10'. The beetle may shoot a 10' flame out of its thorax once every three rounds.</td>
+</tr>
+</table>
+
+<br>
+<table>
+<caption>
+<a name="Chicken"><u>Chicken-Sized Dinosaur</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>11</td>
+<td>1</td>
+<td>1 bite</td>
+<td>1d2</td>
+<td>70'</td>
+<td>2d6</td>
+<td>Normal Man</td>
+<td>None</td>
+<td>7</td>
+<td>10</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Darkmantle"><u>Darkmantle</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>16</td>
+<td>1+2</td>
+<td>1 constriction</td>
+<td>1d4</td>
+<td>15' Fly 60'</td>
+<td>2d6</td>
+<td>Fighter 1</td>
+<td>None</td>
+<td>7</td>
+<td>30</td>
+</tr>
+<tr>
+<td colspan="10">Squid-like enemy that disguises itself as a stalactite until it drops down and smothers its prey. Has 90' darkvision via echolocation. Half of all damage against it is passed along to its victim if it is currently enveloping someone. Can cast <i>Darkness</i> once per day.</td>
+</table>
+ 
+<br>
+
+<table>
+<caption>
+<a name="Dimetrodon"><u>Dimetrodon</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>17</td>
+<td>8</td>
+<td>1 bite</td>
+<td>2d6</td>
+<td>10', 20' swimming</td>
+<td>1d4</td>
+<td>Fighter 6</td>
+<td>None</td>
+<td>8</td>
+<td>500</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<caption>
+<a name="DuckDinosaur"><u>Duck-Billed Dinosaur</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>14</td>
+<td>5+9</td>
+<td>1 tail or 1 trample</td>
+<td>2d6, 1d10</td>
+<td>40'</td>
+<td>2d4</td>
+<td>Fighter 7</td>
+<td>None</td>
+<td>8</td>
+<td>700</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="GiantCentipede"><u>Centipede, Giant</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>11</td>
+<td>1/2 1d4</td>
+<td>1 bite</td>
+<td>Poison</td>
+<td>40'</td>
+<td>1d4, 1d6 underground</td>
+<td>Normal Man</td>
+<td>None</td>
+<td>7</td>
+<td>13</td>
+</tr>
+<tr>
+<td colspan="10">Characters bitten by a giant centipede must save vs. poison or die, but due to the poison's weakness all saves are +2.</td>
+</table>
+ 
+<br>
+
+<table>
+<caption>
+<a name="Head"><u>Flying Head</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>18</td>
+<td>12</td>
+<td>3 spells</td>
+<td>Spell effects</td>
+<td>30' flying</td>
+<td>1</td>
+<td>Magic User 12</td>
+<td>9</td>
+<td>None</td>
+<td>1900</td>
+</tr>
+<tr>
+<td colspan="10">Flying heads are creatures which are roughly human-shaped except for its large cyclopean eye and two flexible eye stalks. Each eye can cast a different spell: <i>Cause Fear</i> (an inversion of <i>Remove Fear</i>) ca cast by a 12th level cleric, <i>Charm Monster</i> as cast by a 12th level magic-user, and <i>Geas</i> as a 12th level magic user. Flying heads enjoy being served by slaves and will always have 1d4 humans and 1d4 lizardmen whose minds are being dominated. If battle with a flying head goes on longer than three rounds, the slaves will be activated and fight as <b>zombies</b>.</td>
+</tr>
+
+<br>
+ 
+<table>
+<caption>
+<a name="Iguanadon"><u>Iguanodon</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>16</td>
+<td>6+8</td>
+<td>1 tail</td>
+<td>1d6</td>
+<td>50'</td>
+<td>1d6</td>
+<td>Normal Man</td>
+<td>None</td>
+<td>7</td>
+<td>700</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name=""><u></u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>15</td>
+<td>2</td>
+<td>1 bite</td>
+<td>1d10 bite</td>
+<td>15', 30' swimming</td>
+<td>1d8</td>
+<td>Fighter 2</td>
+<td>None</td>
+<td>7</td>
+<td>100</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Lizardman"><u>Lizardman, Civilized</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>13</td>
+<td>2</td>
+<td>1 bite or 1 weapon</td>
+<td>1d6+1 or by weapon</td>
+<td>30'</td>
+<td>2d4</td>
+<td>Fighter 2</td>
+<td>TBD</td>
+<td>11</td>
+<td>75</td>
+</tr>
+<tr>
+<td colspan="10">A lizardman who lives in a city or practices pastoralism. 15% chance of knowing English.</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="FeralLizard"><u>Lizardman, Feral</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>15</td>
+<td>2+4</td>
+<td>1 bite or 1 claw</td>
+<td>1d6+3, 1d6+1</td>
+<td>40'</td>
+<td>1d4</td>
+<td>Fighter 5</td>
+<td>None</td>
+<td>10</td>
+<td>300</td>
+</tr>
+<tr>
+<td colspan="10">Some lizardmen escape into the wild before they mature and do not learn to speak or use tools.</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="LizardTribal"><u>Lizardman, Tribal</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>13</td>
+<td>1</td>
+<td>1 bite or 1 weapon</td>
+<td>1d6+2 or by weapon</td>
+<td>30'</td>
+<td>2d4</td>
+<td>Fighter 3</td>
+<td>TBD</td>
+<td>12</td>
+<td>110</td>
+</tr>
+<tr>
+<td colspan="10">Lizardmen who live in traditional nomadic societies. Only 1% chance of knowing English. There is a 25% chance of the group having a shaman who can cast <i>Speak With Plants</i>, <i>Cure Light Wounds</i>, and <i>Purify Food and Water</i> once per day.</td>
+</tr>
+ 
+<table>
+<caption>
+<a name="Troglodyte"><u>Lizardman, Troglodyte</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>16</td>
+<td>3+10</td>
+<td>1 bite or weapon</td>
+<td>1d6 or weapon</td>
+<td>30'</td>
+<td>1d6</td>
+<td>Fighter 10</td>
+<td>TBD</td>
+<td>12</td>
+<td>500</td>
+</tr>
+<tr>
+<td colspan="10">Troglodytes are a subspecies of lizardman which has evolved to live in deep caverns. Their scales are pale and they have developed large barrel chests. Most are armed with atlatls and carry three spears with them that cause 1d8 damage. There is a 10% chance that an individual will be able to speak a Tribal Lizardman language.</td>
+</tr>
+</table>
+ 
+ 
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Mush"><u>Mushrooman</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>16</td>
+<td>4+4</td>
+<td>weapon or special</td>
+<td>normal weapon or special</td>
+<td>20'</td>
+<td>3d4</td>
+<td>Fighter 6</td>
+<td>TBD</td>
+<td>12</td>
+<td>500</td>
+</tr>
+<tr>
+<td colspan="10">Mushroomans are intelligent creatures which cannot communicate with outsiders without psychic assistance. Once per day, a mushrooman can emit spores in a 20' radius which have the same effect at the <i>Confusion</i> spell. They are typically armed with handaxes which cause 1d6 damage.
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Pachy"><u>Pachycephalosaur</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>14</td>
+<td>3</td>
+<td>1 bite or butt</td>
+<td>1d6 or 1d8</td>
+<td>40'</td>
+<td>1d8 (+1d2-1 juveniles)</td>
+<td>Fighter 3</td>
+<td>None</td>
+<td>7</td>
+<td>145</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="PachySmall"><u>Pachycephalosaur, Small</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>12</td>
+<td>1</td>
+<td>1 bite or butt</td>
+<td>1d2, 1d4</td>
+<td>30'</td>
+<td>1d12 (+1d2 adults)</td>
+<td>Fighter 1</td>
+<td>None</td>
+<td>7</td>
+<td>25</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Poison"><u>Poisonsaurus</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>14</td>
+<td>5</td>
+<td>1 bite or poison spit</td>
+<td>1d8</td>
+<td>30'</td>
+<td>1d6</td>
+<td>Fighter 3</td>
+<td>None</td>
+<td>8</td>
+<td>400</td>
+</tr>
+<tr>
+<td colspan="10">The poisonsaurus may spit venom up to 10' away. Characters must save vs. Death Ray or be paralyzed for 1 hour.</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Pterodactyl"><u>Pterodactyl</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>12</td>
+<td>3</td>
+<td>1 bite</td>
+<td>2d4 bite</td>
+<td>Fly 60' (walk 10')</td>
+<td>1d6</td>
+<td>Fighter 2</td>
+<td>None</td>
+<td>7</td>
+<td>125</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Raptor"><u>Raptor</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>17</td>
+<td>11+9</td>
+<td>1 bite, 1 tail,<br> or 1 trample</td>
+<td>1d6, 2d8, 2d8</td>
+<td>20'</td>
+<td>1d4</td>
+<td>Fighter 6</td>
+<td>None</td>
+<td>6</td>
+<td>1500</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Satanist"><u>Satanist</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>12</td>
+<td>2+4</td>
+<td>Stone mace and light crossbow with 1d6+2 bolts</td>
+<td>1d8 (mace), 1d6 (crossbow)</td>
+<td>30'</td>
+<td>3d4</td>
+<td>Fighter 8</td>
+<td>TBD</td>
+<td>11</td>
+<td>1000</td>
+</tr>
+<tr>
+<td colspan="10">An inhabitant of Habhurrum. Satanists have a Darkvision range of 20'. There is a 20% change of any group having one magic-user who has <i>Protection From Evil</i>, 2x <i>Magic Missile</i>, <i>Animate Dead</i>, and <I>Mind Reading</i> prepared. If the group is 10 or larger, the chance rises to 75%.</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Sauropod"><u>Sauropod</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>14</td>
+<td>12+8</td>
+<td>1 tail, bite, or trample</td>
+<td>1d4, 1d4, 1d6</td>
+<td>30'</td>
+<td>1d10</td>
+<td>Fighter 9</td>
+<td>None</td>
+<td>8</td>
+<td>1875</td>
+</tr>
+</table>
+ 
+<br>
+<table>
+<caption>
+<a name="SmallSauropod"><u>Sauropod, Small</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>13</td>
+<td>6</td>
+<td>1 bite or butt</td>
+<td>1d2 or 1d4</td>
+<td>40'</td>
+<td>1d12</td>
+<td>Fighter 6</td>
+<td>None</td>
+<td>7</td>
+<td>500</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="ShockLizard"><u>Lizard, Shocker</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>15</td>
+<td>2</td>
+<td>1 bite + special</td>
+<td>1d4 bite + special</td>
+<td>30'</td>
+<td>1d6</td>
+<td>Fighter 2</td>
+<td>None</td>
+<td>7 (4 if alone)</td>
+<td>100</td>
+</tr>
+<tr>
+<td colspan="10">Shocker lizards can emit electric shocks with a range of 10' that stun their targets if they fail a save vs. Death Ray. Shockers can sense electric discharges, and there is a 20% chance that another 1d2 will arrive on the next turn if the lizards try to shock anyone.</td>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Shrieker">Shrieker</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>10</td>
+<td>3</td>
+<td>None</td>
+<td>None</td>
+<td>5'</td>
+<td>1d8</td>
+<td>Fighter 1</td>
+<td>None</td>
+<td>12</td>
+<td>140</td>
+</tr>
+<tr>
+<td colspan="10">Shriekers emit a loud screeching noise when approached or harmed. A new encounter must be rolled for immediately, and again for every round that the noise can still be heard.</td>
+</tr>
+</table>
+ 
+<BR>
+ 
+<table>
+<caption>
+<a name="Snake, Giant"><u>Snake, Giant</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>14</td>
+<td>6</td>
+<td>1 bite, 1 constrict</td>
+<td>1d8 bite, 2d6 constriction</td>
+<td>40'</td>
+<td>1d3</td>
+<td>Fighter 5</td>
+<td>None</td>
+<td>8</td>
+<td>810</td>
+</tr>
+<tr>
+<td colspan="10">The snake will wrap itself around its victim in the same round as a successful bite attack, constricting for an additional 2d6 on each subsequent round. The hold may be broken by rolling a 1+STR bonus at the start of each round, at which point they will need the rest of the round to recover.</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Spinosaurus"><u>Spinosaurus</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>20</td>
+<td>20+10</td>
+<td>1 bite</td>
+<td>4d10</td>
+<td>40'</td>
+<td>1d4</td>
+<td>Fighter 9</td>
+<td>None</td>
+<td>11</td>
+<td>6000</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name=Stegosaurus><u>Stegosaurus</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>17</td>
+<td>11+9</td>
+<td><p>1 bite, 1 tail,</p>
+<p>or 1 trample</p></td>
+<td><p>Bite 1d6, tail 2d8,</p><p>trample 2d8</p></td>
+<td>20'</td>
+<td>1d4</td>
+<td>Fighter 6</td>
+<td>None</td>
+<td>7</td>
+<td>1575</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Strangle"><u>Strangle Vine</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>15</td>
+<td>6</td>
+<td>1 entangle</td>
+<td>1d8</td>
+<td>5'</td>
+<td>1d4+1</td>
+<td>Fighter 6</td>
+<td>None</td>
+<td>12</td>
+<td>400</td>
+</tr>
+<tr>
+<td colspan="10">Vine can sense sound and vibrations within 30' and surprises on a roll of 1-4 on 1d6. Entanglement in the 20' vines is automatic on a successful hit and must escape by rolling a save vs. Death Ray with STR bonus added. An additional 1d8 damage is inflicted for each round the character is entangled.</td>
+</tr>
+</table>
+ 
+ 
+<br>
+ 
+<table>
+<caption>
+<a name=Triceratops><u>Triceratops</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>18</td>
+<td>11+9</td>
+<td>1 gore or 1 trample</td>
+<td><p>3d6 gore,</p> <p>3d6 trample</p></td>
+<td>30'</td>
+<td>1d4</td>
+<td>Fighter 7</td>
+<td>None</td>
+<td>8</td>
+<td>1575</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Miniceratops"><u>Triceratops, Hornless</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>9</td>
+<td>6</td>
+<td>1 bite</td>
+<td>1d4 bite</td>
+<td>25'</td>
+<td>2d6</td>
+<td>Fighter 2</td>
+<td>None</td>
+<td>6</td>
+<td>500</td>
+</tr>
+<tr>
+<td colspan="10">An edible breed of triceratops which is roughly the size of a cow.</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="FlyingTrilobite"><u>Trilobite, Flying</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>16</td>
+<td>1</td>
+<td>1 bite or 1 scratch</td>
+<td>1d2, 1d4</td>
+<td>60' flying</td>
+<td>4d4</td>
+<td>Fighter 1</td>
+<td>None</td>
+<td>7</td>
+<td>150</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="LandTrilobite"><u>Trilobite, Land</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>12</td>
+<td>2</td>
+<td>1 bite, 1 sting/day</td>
+<td>1d6, 1d4</td>
+<td>40'</td>
+<td>3d4</td>
+<td>Fighter 1</td>
+<td>None</td>
+<td>6</td>
+<td>100</td>
+</tr>
+<tr>
+<td colspan="10">Characters stung by a land trilobite must save vs Death Ray or they will be nauseated for 12 hours and have their movement slowed to 10'.</td>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="Trex"><a href="trex.jpg"><u>Tyrannosaurus Rex</u></a></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>23</td>
+<td>18+12</td>
+<td>1 bite</td>
+<td>6d6 bite</td>
+<td>40'</td>
+<td>1</td>
+<td>Fighter 18</td>
+<td>11</td>
+<td>None</td>
+<td>4000</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table>
+<caption>
+<a name="YellowMold"><u>Yellow Mold</u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td>0</td>
+<td>2</td>
+<td>Spore cloud (1/day)</td>
+<td>Choking</td>
+<td>Immobile</td>
+<td>1d8</td>
+<td>Normal Man</td>
+<td>None</td>
+<td>N/A</td>
+<td>100</td>
+</tr>
+<tr>
+<td colspan="10">Yellow Mold will emit noxious spores if characters approach within 10'. They must save vs. Death Ray or take 1d8 damage for 6 rounds. Can be made dormant and eventually killed with sunlight.</td>
+</table>
+ 
+<br>
+ 
+<hr>
+
+<center><u><a name="Special1">Special Encounter</a></center></u></center>
+
+<br>
+
+<p style="max-width: 75%; center; text-align: justify; margin: auto;">If this encounter is rolled, it means that the characters have come across an encounter between two sides. The GM must roll twice more to determine <i>what</i> those sides are. Some lizardmen may be hunting a triceratops, or maybe a brontosaurus is peacefully grazing next to a herd of iguanadons.</p>
+
+</stats>
+
+<br>
+
+</body>
+ 
+<!--
+<table>
+<caption>
+<a name=""><u></u></a>
+</caption>
+<tr>
+<th>AC</th>
+<th>HD</th>
+<th>No. Attacks</th>
+<th>Damage</th>
+<th>Move</th>
+<th>No. Appearing</th>
+<th>Save As</th>
+<th>Treasure Type</th>
+<th>Morale</th>
+<th>XP</th>
+</tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+-->
+ 
+</html>
