@@ -1,0 +1,39 @@
+Acephaloid: Init +0; Atk bite +1 (1d4), club (1d6); AC 9; HD 4d6; MV 30'; Act 1d20; SP eye can detach to form floating eyeball, after which Act drops by 1d, darkvision 10'; SV Fort +0, Ref +2, Will -2; AL C.
+
+Daddy acephaloid: Init +1; Atk bite +2 (1d4+2), club +1 (2d6); AC 12; HD 4d8; MV 40'; Act 1d20+1d16; SP eye can detach to form floating eyeball, after which Act drops by 1d, darkvision 10'; SV Fort +0, Ref +0, Will -2; AL C.
+
+Floating eyeball: Init +3; Atk optic nerve garotte (1d3 + enemy must beat a DC 7 STR check or have this damage inflicted again on their next turn); AC 18; HD 2d4; MV 60' (flying); Act 1d20; SP can cast Lotus Stare (DCC 276) once per encounter, darkvision 10'; SV Fort-2, Ref +6, Will +1; AL C.
+
+Acephaloids are mutated blemmyes which live in forests, ruins, and any other place which can provide cover during the day. They are not intelligent enough to communicate with and are hostile to anyone outside of their species. Because they do not stop growing as they age, the few who do not succumb to starvation or predation by their peers become "daddies", huge and far more dangerous. They have the unique ability to let their eyes leave their bodies to operate independently, using their unusually long optic nerves as tentacles.
+
+Living tree: Init -2; Atk whip (narrow branch) (2d4), bludgeon +1 (3d4+1); AC 16 (10 against fire and axes); HD 5d8; MV 15'; Act 1d20; SP suffers 2x damage from fire and axes; SV Fort +4, Ref -6, Will +0; AL N.
+
+Petrified tree: Init -4; Atk bludgeon +1 (3d4+1); AC 18; HD 6d8; MV 10'; Act 1d20; SP must be dismembered with a silvered, mithril, or magical weapon or the tree will reconstitute in 1d10 minutes, characters who are successfully hit must pass a Luck check and roll on Crit Table V if they fail; SV Fort +8, Ref -8, Will +2; AL C.
+
+Ambulatory trees lurch around the countryside, suspicious of the humanoids who visited so much devastation on the world. Some few turn to Chaos and become petrified, leafless but far tougher than their living bretheren.
+
+Radiation elemental: Init +10; Atk hard rad blast (2d8, DC 15 Fort save halves) microwave beam (3d4, causes painful burns with a -1 PER penalty that can only be healed with magical aid); AC 16; HD 10d8; MV 40' (flight); Act 2d20; SP elemental traits, can blind opponents with concentrated light for 1d4 turns (DC 10 Fort save); SV Fort +8, Ref +8, Will +10; AL N.
+
+Radiation elementals are air elementals which have been contaminated with, and can exploit, radioactive dust particles.
+
+Cactoid: Init -2; Atk claw +3 (1d4+1) spine shot +1 (1d3); AC 12; HD 4d8; MV 20'; Act 1d20; SP covered with spines, all physical contact causes 1 HP of damage, while grapple attempts cause 1d5 per turn, spine shot causes damage to all characters within 20' if hit; SV Fort +4, Ref -3, Will -2; AL N.
+
+Pseudocyberskull: Init +3; Atk steely bite +1 (1d8+2), headbutt +2 (2d6); AC 14; HD 4d8; MV 30' (flying); Act 2d20; SP has slots for spell scrolls built into its rear - currently Scare (DCC p. 191) and 1d3 other random wizard scrolls are loaded, any electrical damage kills the imps which operate the skull, rendering it inert; SV Fort +2, Ref +2, Will +5; AL C.
+
+Pscorpions (3): Init +1; Atk claws +2 slashing (2d5); AC 14; HD 3d8; MV 20'; Act 1d20, 1d16; SP can cast _ray of enfeeblement_ (core rulebook p. 190); SP Fort +1, Ref -1, Will -2; AL N.
+
+Pscorpions are giant mutated scorpions which have spell-casting eyes intead of poison glands on their tails. They move slowly and hunt in small groups of 2-4.
+
+Flylobites (5): Init +3; Atk blood-draining bite (1d3, HP is transferred to the flylobite); AC 16; HD 1d6; MV 60'; Act 1d20; SP can knock an enemy prone by batting them with their wings following a failed DC 7 AGI check; Fort +0, Ref +4, Will -3; AL N.
+
+Flylobites are a species of blood-draining trilobites which leap out of trees and drain the blood of unwary victims.
+
+Grandroid nanny: Init 0 (+4 if cover isn't blown); Atk spank +2 (1d6), boiling hot cocoa/chamomile thermos +2 (1d8/1d6); AC 14; HD 4d6; MV 30' (60' without disguise); Act 1d20, 1d16; SP PCs hit with chamomile must pass a DC 5 Fort save vs becoming drowsy and suffering a -1d penalty for all actions for 1 hour; Fort +6, Ref +8, Will +0. AL L.
+
+Grandroids are robots who help care for young children. Their synthetic skin resembles an elderly grandmother, but the chassis is that of an ordinary warbot. Its hot drink dispenser uses an F-cell and can normally make 100 hot drinks, but it can also produce superheated liquids to attack enemies; a fully charged F-cell can do this this four times before needing to be replaced.
+
+Land-dwelling sea scorpions: 
+
+Sapient snakes: Init +3; Atk bite +1 (1d3), tiny axe (1d4) or tiny short sword (1d6); AC 18; HD 1d6; MV 20' (10' climbing); Act 1d20;  SP can manage 2 venomous bites per encounter, bitten targets must pass a DC 5 Fort save; Fort +0, Ref +6, Will +1; AL N.
+
+Sapient snakes are a species discovered on Rasalhague II. Becoming pets is far more appealing to them than the stone age savagery of their homeworld, but spending months in a pet shop followed by years fetching drinks and performing tricks becomes tedious for many, and they tend to resent their owners if not properly cared for. Like terrestrial snakes, sapient snakes eat smaller animals whole; on Cretasus, they have learned to use carrion to attract edible scavengers, and some steal ornamental chickens to feast on their eggs.
